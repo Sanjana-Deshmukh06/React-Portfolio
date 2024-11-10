@@ -50,7 +50,7 @@ const LikeButton = () => {
           exit={{ opacity: 0 }}
         >
           <div className="animate-fadeIn bg-gradient-to-r from-pink-500 via-red-500 to-purple-500 p-[1px] rounded-lg shadow-lg w-10/11 max-w-md">
-            <div className="bg-primary text-white p-6 rounded-lg relative">
+            <div className="bg-primary text-white p-4 rounded-lg relative">
               {/* Close Button */}
               <button
                 onClick={closePopup}

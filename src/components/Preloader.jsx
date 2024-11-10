@@ -12,14 +12,14 @@ const Preloader = () => {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, repeat: Infinity, repeatType: "reverse" }}
-        className="text-3xl text-white font-bold mb-4 z-[1001]" // Ensure text is above the background
+        className="text-3xl text-center w-full flex items-center justify-center text-white font-bold mb-8 z-[1001]"
       >
-        Loading Sanjana's Portfolio...
+        Hold On! Crafting Pixels and Code for You...
       </motion.h1>
 
       {/* Animated Circles below the text */}
       <motion.div
-        className="relative flex space-x-4 mb-4 z-[1001]" // Ensure circles are above the background and below the text
+        className="relative flex space-x-4 mb-4 z-[1001]"
         animate={{ scale: [0.5, 1.2, 0.5], opacity: [0.5, 1, 0.5] }}
         transition={{ duration: 1.5, repeat: Infinity }}
       >

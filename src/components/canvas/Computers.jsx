@@ -7,13 +7,13 @@ const Computers = ({ isMobile }) => {
   const computer = useGLTF('./desktop_pc/scene.gltf')
   return (
     <mesh>
-      <hemisphereLight intensity={6} groundColor="black" />
-      <pointLight intensity={5} />
+      <hemisphereLight intensity={isMobile ? 3 : 6} groundColor="black" />
+      <pointLight intensity={isMobile ? 3 : 5} />
       <spotLight
         position={[-10, 30, 10]}
         angle={0.3}
         penumbra={1}
-        intensity={1}
+        intensity={isMobile ? 0.5 : 1}
         castShadow
         shadow-mapSize={1024}
       />
@@ -56,11 +56,14 @@ const ComputersCanvas = () => {
     <Canvas
       frameLoop="demand"
       shadows
-      camera={{ position: [20, 3, 5], fov: 30 }}
+      camera={{
+        position: isMobile ? [10, 3, 5] : [20, 3, 5],
+        fov: isMobile ? 50 : 30,
+      }}
       gl={{ preserveDrawingBuffer: true }}>
       <Suspense fallback={<CanvasLoader />} >
         <OrbitControls
-        
+
           enableZoom={false}
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}

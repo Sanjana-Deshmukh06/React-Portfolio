@@ -207,7 +207,7 @@ const projects = [
       },
     ],
     image: portfolio,
-    source_code_link: "",
+    source_code_link: "https://sanjana-deshmukh.netlify.app/",
   },
   {
     name: "Tic Tac Toe",
