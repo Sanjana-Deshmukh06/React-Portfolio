@@ -21,6 +21,53 @@ module.exports = {
       backgroundImage: {
         "hero-pattern": "url('/src/assets/hero.jpg')",
       },
+      // Adding keyframes and animation inside the extend object correctly
+      keyframes: {
+        gradientFloat: {
+          "0%": {
+            backgroundPosition: "0% 50%",
+          },
+          "50%": {
+            backgroundPosition: "100% 50%",
+          },
+          "100%": {
+            backgroundPosition: "0% 50%",
+          },
+        },
+        ping: {
+          "0%": {
+            transform: "scale(0)",
+            opacity: "1",
+          },
+          "75%": {
+            transform: "scale(1)",
+            opacity: "1",
+          },
+          "100%": {
+            transform: "scale(0.5)",
+            opacity: "1",
+          },
+        },
+        fadeIn: {
+          "0%": {
+            opacity: 0,
+            transform: "translateY(-10px)",
+          },
+          "100%": {
+            opacity: 1,
+            transform: "translateY(0)",
+          },
+        },
+      },
+      animation: {
+        "gradientFloat": "gradientFloat 5s infinite linear",
+        "ping-small": "ping 1s cubic-bezier(0, 0, 0.2, 1) infinite",
+        "fadeIn": "fadeIn 1s ease-out",
+      },
+      transitionProperty: {
+        transform: "transform", // Adding transition for transform property (heart icon scale)
+      },
+      
     },
   },
   plugins: [],

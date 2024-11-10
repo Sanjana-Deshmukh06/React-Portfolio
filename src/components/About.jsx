@@ -91,7 +91,11 @@ const About = () => {
 
         <a href={resume} download="Sanjana_Deshmukh"><button
           type='submit'
-          className='bg-tertiary py-2 px-3 w-fit text-white  shadow-primary rounded-xl mt-4 shadow-sm shadow-gray-100 p-1 hover:shadow-lg hover:shadow-purple-800 transition-shadow duration-600'
+          className='bg-tertiary py-2 px-4 w-fit text-white font-semibold shadow-primary rounded-xl mt-4 shadow-sm 
+                     transition-all duration-300 ease-in-out 
+                     hover:scale-105 
+                     hover:bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 
+                   hover:text-gray-100 '
           >
           Download CV
         </button>

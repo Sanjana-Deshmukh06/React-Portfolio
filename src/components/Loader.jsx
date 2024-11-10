@@ -1,27 +1,18 @@
 import { Html, useProgress } from '@react-three/drei';
-import { RingLoader } from 'react-spinners'; // Importing a spinner loader component
 
 const Loader = () => {
   const { progress } = useProgress();
 
   return (
-    <Html>
-      {/* Spinner Loader */}
-      <RingLoader
-        color="#915eff"
-        size={90} // Adjust the size as per your preference
-        loading={true}
-      />
-      <p
-        style={{
-          fontSize: 14,
-          color: "#f1f1f1",
-          fontWeight: 800,
-          marginTop: 40,
-        }}
-      >
-        Loading...
-      </p>
+    <Html center>
+      <div className="flex flex-col items-center justify-center absolute">
+        {/* Rotating Circle Loader */}
+      
+        <div className="w-16 h-16 border-t-4 border-b-4 border-transparent border-t-purple-500 border-b-pink-500 rounded-full animate-spin"></div>
+        <p className="text-sm text-white font-semibold ">
+          Loading... {Math.round(progress)}%
+        </p>
+      </div>
     </Html>
   );
 };

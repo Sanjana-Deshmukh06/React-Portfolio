@@ -171,7 +171,7 @@ const testimonials = [
 const projects = [
   {
     name: "TripTribe",
-    description:"TripTribe is a full-stack web application, built using the MERN stack with EJS for templating.The platform allows users to explore, book, and list accommodations with ease. I implemented API-based login authentication to ensure secure and seamless user access.",
+    description: "TripTribe is a full-stack web application, built using the MERN stack with EJS for templating.The platform allows users to explore, book, and list accommodations with ease. I implemented API-based login authentication to ensure secure and seamless user access.",
     tags: [
       {
         name: "Bootstrap",
@@ -191,7 +191,7 @@ const projects = [
   },
   {
     name: "My Portfolio",
-    description:"This portfolio website is a comprehensive showcase of my expertise in MERN stack technologies.Built with Tailwind CSS for a modern and responsive design, it also integrates a 3D canvas using Three.js, adding an interactive dimension to the user experience.",
+    description: "This portfolio website is a comprehensive showcase of my expertise in MERN stack technologies.Built with Tailwind CSS for a modern and responsive design, it also integrates a 3D canvas using Three.js, adding an interactive dimension to the user experience.",
     tags: [
       {
         name: "Three.js",
@@ -211,7 +211,7 @@ const projects = [
   },
   {
     name: "Tic Tac Toe",
-    description:"This Tic-Tac-Toe project is a simple, interactive web-based game developed using JavaScript, HTML, and Vanilla CSS.The game features a clean and responsive design, allowing two players to compete with real-time updates on the game board.",
+    description: "This Tic-Tac-Toe project is a simple, interactive web-based game developed using JavaScript, HTML, and Vanilla CSS.The game features a clean and responsive design, allowing two players to compete with real-time updates on the game board.",
     tags: [
       {
         name: "HTML5",

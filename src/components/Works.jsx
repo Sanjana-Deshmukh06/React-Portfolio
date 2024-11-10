@@ -67,6 +67,7 @@ const Works = () => {
         <p className={`${styles.sectionSubText} mt-10`}>My Works</p>
         <h2 className={styles.sectionHeadText}>Projects.</h2>
       </motion.div>
+      
 
       {/* Added flex container for aligning project cards */}
       <div className='flex flex-wrap justify-center gap-7'>

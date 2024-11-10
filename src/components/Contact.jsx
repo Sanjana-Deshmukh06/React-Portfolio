@@ -6,6 +6,8 @@ import { styles } from '../styles';
 import { EarthCanvas } from './canvas';
 import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';
+import LikeButton from './LikeButton'; // Import the LikeButton component
+
 
 
 
@@ -22,7 +24,7 @@ const Contact = () => {
     const { name, value } = e.target;
     setform({ ...form, [name]: value })
   }
- 
+
   const handleSubmit = (e) => {
     e.preventDefault();
     setloading(true);
@@ -106,13 +108,17 @@ const Contact = () => {
           </lable>
           <button
             type='submit'
-            className='bg-tertiary py-3 px-3 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl'
-          >
+            className='bg-tertiary py-3 px-8 w-fit text-white font-semibold shadow-primary rounded-xl  shadow-sm 
+                     transition-all duration-300 ease-in-out 
+                     hover:scale-105 
+                     hover:bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 
+                   hover:text-gray-100'>
             Send
           </button>
         </form>
+  {/* Like Button Component */}
+  <LikeButton />
 
-        
       </motion.div>
       <motion.div
         variants={slideIn('right', 'tween', 0.2, 1)}
@@ -120,9 +126,9 @@ const Contact = () => {
       >
         <EarthCanvas />
       </motion.div>
-     
+
     </div>
-    
+
   )
 }
 
