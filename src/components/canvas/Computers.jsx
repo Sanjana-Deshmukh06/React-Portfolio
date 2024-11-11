@@ -7,13 +7,16 @@ const Computers = ({ isMobile }) => {
   const computer = useGLTF('./desktop_pc/scene.gltf')
   return (
     <mesh>
-      <hemisphereLight intensity={isMobile ? 3 : 6} groundColor="black" />
-      <pointLight intensity={isMobile ? 3 : 5} />
+      <hemisphereLight intensity={isMobile ? 7 : 7} groundColor="black" />
+
+      <pointLight intensity={isMobile ? 2 : 6}
+        position={isMobile ? [0, -2.4, 0] : [0, -0.5, 0]} />
+
       <spotLight
         position={[-10, 30, 10]}
         angle={0.3}
         penumbra={1}
-        intensity={isMobile ? 0.5 : 1}
+        intensity={isMobile ? 0.5 : 1.5}
         castShadow
         shadow-mapSize={1024}
       />
@@ -21,7 +24,7 @@ const Computers = ({ isMobile }) => {
       <primitive
         object={computer.scene}
         scale={isMobile ? 0.43 : 0.9}
-        position={isMobile ? [0, -4.10, -1] : [0, -4.20, -1.5]}
+        position={isMobile ? [0.2, -4.10, -1] : [0, -3.90, -1.5]}
         rotation={[-0.01, -0.2, -0.1]}
       />
     </mesh>
@@ -57,18 +60,17 @@ const ComputersCanvas = () => {
       frameLoop="demand"
       shadows
       camera={{
-        position: isMobile ? [10, 3, 5] : [20, 3, 5],
+        position: isMobile ? [15, 5, 10] : [20, 3, 5],
         fov: isMobile ? 50 : 30,
       }}
       gl={{ preserveDrawingBuffer: true }}>
       <Suspense fallback={<CanvasLoader />} >
         <OrbitControls
- enablePan={false} 
+          enablePan={false}
           enableZoom={false}
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
-          maxAzimuthAngle={0.5} // Limit horizontal movement
-         
+
         />
         <Computers isMobile={isMobile} />
       </Suspense>
