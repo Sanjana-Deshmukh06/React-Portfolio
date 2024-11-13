@@ -33,6 +33,7 @@ import tictac from './Project4.png';
 import portfolio from './portfolio.png';
 import triptribe from './TripTribe.png';
 import resume from './Sanjana_Deshmukh.pdf';
+import logo2 from './avtar2.avif';
 
 import email from './connect/email.png';
 import Github from './connect/github.png';
@@ -75,5 +76,6 @@ export {
   Github,
   linkdin,
   telegram,
-  resume
+  resume,
+  logo2
 };

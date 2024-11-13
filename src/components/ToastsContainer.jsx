@@ -57,7 +57,7 @@ const ToastsContainer = () => {
             {/* Toast Header */}
             <div className="flex items-center justify-between px-4 py-2 border-b border-purple-300">
               <strong className="text-white font-semibold text-[13px]">Hey there👋</strong>
-              <span className="text-xs text-gray-300">1 min ago</span>
+              <span className="text-xs text-gray-300 my-2">1 min ago</span>
               <button
                 type="button"
                 className="text-white hover:text-gray-200"

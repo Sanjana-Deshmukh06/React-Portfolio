@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import { styles } from '../styles';
 import { navLinks } from '../constants';
-import { logo, menu, close } from '../assets';
+import { menu, close,logo2 } from '../assets';
 import ProfileCard from './ProfileCard';
 
 const Navbar = () => {
@@ -27,9 +27,9 @@ const Navbar = () => {
           onClick={handleLogoClick}
         >
           <img
-            src={logo}
+            src={logo2}
             alt="logo"
-            className="w-9 h-9 object-contain rounded-full animate-ping-small "
+            className="w-10 h-10 object-contain rounded-full animate-pulse "
           />
           <p className="text-white text-[18px] font-bold cursor-pointer flex ">
           👋&nbsp;
