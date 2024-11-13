@@ -19,8 +19,8 @@ const Computers = ({ isMobile }) => {
       />
       <primitive
         object={computer.scene}
-        scale={isMobile ? 0.8 : 0.9}
-        position={isMobile ? [0.8, -3.5, -1] : [0.5, -3.90, -1.5]}
+        scale={isMobile ? 0.69 : 0.9}
+        position={isMobile ? [0.8, -6.5, -1] : [0.5, -3.90, -1.5]}
         rotation={[-0.01, -0.57, -0.1]}
       />
     </mesh>
@@ -44,7 +44,7 @@ const ComputersCanvas = () => {
     };
   }, []);
 
-  // // If on mobile, return an image instead of the 3D canvas
+  // If on mobile, return an image instead of the 3D canvas
   // if (isMobile) {
   //   return (
   //     <div className="w-full h-full flex justify-center items-center">
@@ -59,12 +59,11 @@ const ComputersCanvas = () => {
 
   return (
     <Canvas
-    dpr={[1, 2]}  // This will handle mobile resolutions better
       frameLoop="demand"
       shadows
       camera={{
-        position: isMobile ? [10, 3, 5] : [20, 3, 5],
-        fov: isMobile ? 35 : 30,
+        position: isMobile ? [15, 5, 10] : [20, 3, 5],
+        fov: isMobile ? 50 : 30,
       }}
       gl={{ preserveDrawingBuffer: true }}
     >
