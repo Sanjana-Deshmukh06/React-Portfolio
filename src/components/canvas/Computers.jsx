@@ -33,7 +33,7 @@ const Computers = ({ isMobile }) => {
 
 const ComputersCanvas = () => {
 
-  const [isMobile, setIsMobile] = useState(false);
+  const [isMobile, setIsMobile] = useState(true);
 
   useEffect(() => {
     //Add a Listener for changes to the screen size
