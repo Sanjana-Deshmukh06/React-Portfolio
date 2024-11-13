@@ -6,6 +6,10 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import sp from './sp.avif';
+import sp2 from './sp2.png';
+import sp3 from './sp3.png';
+import sp4 from './sp4.png';
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -77,5 +81,10 @@ export {
   linkdin,
   telegram,
   resume,
-  logo2
+  logo2,
+  sp,
+  sp2,
+  sp3,
+  sp4,
+
 };

@@ -6,7 +6,7 @@ import ToastsContainer from './ToastsContainer'; // Import the ToastsContainer
 
 const Hero = () => {
   return (
-    <section className="relative w-full h-screen mx-auto bg-hero-pattern bg-cover bg-center overflow-hidden">
+    <section className="relative w-full h-screen mx-auto bg-hero-pattern bg-cover bg-center overflow-x-hidden">
       {/* Include the ToastsContainer here */}
       <ToastsContainer />
 

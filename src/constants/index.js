@@ -23,6 +23,10 @@ import {
   tictac,
   portfolio,
   threejs,
+  sp,
+  sp2,
+  sp3,
+  sp4
 } from "../assets";
 
 export const navLinks = [
@@ -43,19 +47,19 @@ export const navLinks = [
 const services = [
   {
     title: "MERN Stack Developer",
-    icon: web,
+    icon: reactjs,
   },
   {
     title: "Software Programmer",
-    icon: mobile,
+    icon: sp4,
   },
   {
     title: "Web Developer",
-    icon: backend,
+    icon: sp2,
   },
   {
     title: "Frontend Developer",
-    icon: creator,
+    icon: sp3,
   },
 ];
 
