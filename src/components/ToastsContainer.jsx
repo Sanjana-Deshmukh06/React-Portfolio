@@ -26,6 +26,14 @@ const ToastsContainer = () => {
     const initialTimer = setTimeout(displayToast, 5000);
     return () => clearTimeout(initialTimer);
   }, []);
+  useEffect(() => {
+    const timers = toasts.map((toast) =>
+      setTimeout(() => handleCloseToast(toast.id), 10000) // 10 seconds
+    );
+
+    // Cleanup timers on unmount or when toasts change
+    return () => timers.forEach((timer) => clearTimeout(timer));
+  }, [toasts]);
 
   const handleCloseToast = (id) => {
     setToasts((prevToasts) => prevToasts.filter((toast) => toast.id !== id));

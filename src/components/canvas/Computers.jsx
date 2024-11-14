@@ -49,7 +49,7 @@ const ComputersCanvas = () => {
         <img
         src={cmpimg} // Replace this with the path to your static image
           alt="Computer Model"
-          className="w-full h-auto max-w-[150px] absolute bottom-28 animate-arrowAnimation" // Ensure the image is responsive
+          className="w-full h-auto max-w-[150px] absolute bottom-16 animate-arrowAnimation" // Ensure the image is responsive
         />
       </div>
     );

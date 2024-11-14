@@ -23,7 +23,6 @@ import {
   tictac,
   portfolio,
   threejs,
-  sp,
   sp2,
   sp3,
   sp4

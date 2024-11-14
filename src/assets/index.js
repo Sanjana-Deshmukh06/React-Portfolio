@@ -6,7 +6,6 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-import sp from './sp.avif';
 import sp2 from './sp2.png';
 import sp3 from './sp3.png';
 import sp4 from './sp4.png';
@@ -82,9 +81,7 @@ export {
   telegram,
   resume,
   logo2,
-  sp,
   sp2,
   sp3,
   sp4,
-
 };
