@@ -2,6 +2,7 @@ import React, { Suspense, useEffect, useState } from 'react';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls, Preload, useGLTF } from '@react-three/drei';
 import CanvasLoader from '../Loader';
+import cmpimg from '/src/assets/cppp.png';
 
 const Computers = ({ isMobile }) => {
   const computer = useGLTF('./desktop_pc/scene.gltf');
@@ -28,30 +29,27 @@ const Computers = ({ isMobile }) => {
 };
 
 const ComputersCanvas = () => {
-  const [isMobile, setIsMobile] = useState(false);
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
 
   useEffect(() => {
-    const mediaQuery = window.matchMedia('(max-width:768px)');
-    setIsMobile(mediaQuery.matches);
-
-    const handleMediaQueryChange = (event) => {
-      setIsMobile(event.matches);
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768);
     };
-
-    mediaQuery.addEventListener('change', handleMediaQueryChange);
+    window.addEventListener('resize', handleResize);
     return () => {
-      mediaQuery.removeEventListener('change', handleMediaQueryChange);
+      window.removeEventListener('resize', handleResize);
     };
   }, []);
 
+
   // If on mobile, return an image instead of the 3D canvas
-  // if (isMobile) {
+  //  if (isMobile) {
   //   return (
-  //     <div className="w-full h-full flex justify-center items-center">
+  //     <div className="w-full h-full flex justify-center items-center mt-40">
   //       <img
-  //         src="/static/computer_model.png" // Replace this with the path to your static image
+  //       src={cmpimg} // Replace this with the path to your static image
   //         alt="Computer Model"
-  //         className="w-full h-auto max-w-xs" // Ensure the image is responsive
+  //         className="w-full h-auto max-w-md" // Ensure the image is responsive
   //       />
   //     </div>
   //   );
