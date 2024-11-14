@@ -19,15 +19,15 @@ const ProfileCard = ({ isVisible, onClose }) => {
 
             {/* Gradient Border Wrapper */}
             <motion.div
-                className="fixed top-16 transform mt-4 animate-fadeIn bg-gradient-to-r from-pink-500 via-red-500 to-purple-500 rounded-lg p-[1px] shadow-lg z-20 w-10/11 max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl"
-                initial={{ scale: 0 }}
+                className="fixed top-16 transform mt-4 animate-fadeIn bg-gradient-to-r from-pink-500 via-red-500 to-purple-500 rounded-lg p-[2px] shadow-lg z-20 w-10/11 max-w-md sm:max-w-lg md:max-w-xl lg:max-w-2xl xl:max-w-3xl"
+                initial={{ scale: 0.9 }}
                 animate={{ scale: 1 }}
                 exit={{ scale: 0 }}
                 transition={{ duration: 0.3 }}
             >
                 {/* Profile Card */}
                 <motion.div
-                    className="bg-primary text-white p-4 rounded-lg"
+                    className="bg-primary text-white p-12 rounded-lg"
                     initial={{ opacity: 0.5 }}
                     animate={{ opacity: 1 }}
                     transition={{ delay: 0.3 }}
@@ -37,7 +37,7 @@ const ProfileCard = ({ isVisible, onClose }) => {
                         <img
                             src={close}
                             alt="Close"
-                            className="w-5 h-5 absolute top-2 right-1 cursor-pointer"
+                            className="w-5 h-5 absolute top-0 right-0 cursor-pointer"
                             onClick={onClose}
                         />
 
@@ -45,15 +45,15 @@ const ProfileCard = ({ isVisible, onClose }) => {
                         <motion.img
                             src={avatar}
                             alt="Sanjana Deshmukh"
-                            className="w-20 h-20 rounded-full mb-3 border-2 border-secondary hover:shadow-lg hover:shadow-purple-800"
+                            className="w-24 h-24 rounded-full mb-3 border-2 border-secondary hover:shadow-lg hover:shadow-purple-800"
                             initial={{ scale: 0 }}
-                            animate={{ scale: 1 }}
+                            animate={{ scale: 1.2 }}
                             transition={{ delay: 0.4 }}
                         />
 
                         {/* Name and Role */}
                         <motion.h2
-                            className="text-lg font-semibold text-center text-[#915eff] mt-6"
+                            className="text-xl font-semibold text-center text-[#915eff] mt-6"
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}
                             transition={{ delay: 0.5 }}
@@ -61,7 +61,7 @@ const ProfileCard = ({ isVisible, onClose }) => {
                             Sanjana Deshmukh
                         </motion.h2>
                         <motion.p
-                            className="text-sm text-center mb-6 mt-1"
+                            className="text-md text-center mb-6 mt-1"
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}
                             transition={{ delay: 0.6 }}
@@ -81,7 +81,7 @@ const ProfileCard = ({ isVisible, onClose }) => {
                                     <img
                                         src={email}
                                         alt="Email"
-                                        className="w-8 h-8 object-contain rounded-full p-1 shadow-sm shadow-gray-100 hover:shadow-lg hover:shadow-purple-800"
+                                        className="w-10 h-10 object-contain rounded-full p-1 shadow-sm shadow-gray-100 hover:shadow-lg hover:shadow-purple-800"
                                     />
                                 </a>
                             </li>
@@ -90,7 +90,7 @@ const ProfileCard = ({ isVisible, onClose }) => {
                                     <img
                                         src={telegram}
                                         alt="Telegram"
-                                        className="w-8 h-8 object-contain rounded-full p-1 shadow-sm shadow-gray-100 hover:shadow-lg hover:shadow-purple-800"
+                                        className="w-10 h-10 object-contain rounded-full p-1 shadow-sm shadow-gray-100 hover:shadow-lg hover:shadow-purple-800"
                                     />
                                 </a>
                             </li>
@@ -99,7 +99,7 @@ const ProfileCard = ({ isVisible, onClose }) => {
                                     <img
                                         src={linkdin}
                                         alt="LinkedIn"
-                                        className="w-8 h-8 object-contain rounded-full p-1 shadow-sm shadow-gray-100 hover:shadow-lg hover:shadow-purple-800"
+                                        className="w-10 h-10 object-contain rounded-full p-1 shadow-sm shadow-gray-100 hover:shadow-lg hover:shadow-purple-800"
                                     />
                                 </a>
                             </li>
@@ -108,7 +108,7 @@ const ProfileCard = ({ isVisible, onClose }) => {
                                     <img
                                         src={Github}
                                         alt="GitHub"
-                                        className="w-8 h-8 object-contain rounded-full p-1 shadow-sm shadow-gray-100 hover:shadow-lg hover:shadow-purple-800"
+                                        className="w-10 h-10 object-contain rounded-full p-1 shadow-sm shadow-gray-100 hover:shadow-lg hover:shadow-purple-800"
                                     />
                                 </a>
                             </li>
@@ -117,7 +117,7 @@ const ProfileCard = ({ isVisible, onClose }) => {
                         {/* Hire Me Button */}
                         <motion.button
                             onClick={onClose}
-                            className="bg-tertiary py-2 px-4 w-fit text-white font-semibold shadow-primary rounded-xl mt-4 shadow-sm 
+                            className="bg-tertiary py-4 px-8 w-fit text-white font-semibold shadow-primary rounded-xl mt-4 shadow-sm 
                                 transition-all duration-300 ease-in-out 
                                 hover:scale-105 
                                 hover:bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 

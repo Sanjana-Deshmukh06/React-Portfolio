@@ -45,28 +45,28 @@ const About = () => {
 
             <li className="hover:-translate-y-6 transform transition-all duration-200 ">
               <a href="mailto:sanjanadeshmukh30@gmail.com">
-                <img src={email} alt={email} className='w-10 h-10 object-contain rounded-full shadow-sm shadow-gray-100 hover:shadow-lg hover:shadow-purple-800
+                <img src={email} alt={email} className='w-12 h-12 object-contain rounded-full shadow-sm shadow-gray-100 hover:shadow-lg hover:shadow-purple-800
                 p-1' />
               </a>
             </li>
 
             <li className="hover:-translate-y-6 transform transition-all duration-200">
               <a href="contact">
-                <img src={telegram} alt={telegram} className='w-10 h-10 object-contain rounded-full 
+                <img src={telegram} alt={telegram} className='w-12 h-12 object-contain rounded-full 
               shadow-sm shadow-gray-100 p-1 hover:shadow-lg hover:shadow-purple-800'  />
               </a>
             </li>
 
             <li className="hover:-translate-y-6 transform transition-all duration-200">
               <a href=" https://www.linkedin.com/in/sanjana-deshmukh-685896214/">
-                <img src={linkdin} alt={linkdin} className='w-10 h-10 object-contain rounded-full 
+                <img src={linkdin} alt={linkdin} className='w-12 h-12 object-contain rounded-full 
               shadow-sm shadow-gray-100 p-1 hover:shadow-lg hover:shadow-purple-800' />
               </a>
             </li>
 
             <li className="hover:-translate-y-6 transform transition-all duration-200">
               <a href=" https://github.com/Sanjana-Deshmukh06/">
-                <img src={Github} alt={Github} className='w-10 h-10 object-contain rounded-full
+                <img src={Github} alt={Github} className='w-12 h-12 object-contain rounded-full
             shadow-sm shadow-gray-100 p-1 hover:shadow-lg hover:shadow-purple-800' />
               </a>
             </li>
@@ -75,13 +75,13 @@ const About = () => {
       </motion.p>
       <motion.div
         variants={slideIn('left', 'tween', 0.2, 1)}>
-        <b> <p className={`${styles.sectionSubText}text-white`} >Hey There! I’m Sanjana👩‍💻</p></b>
+        <b> <p className={`${styles.sectionSubText}text-white text-center`} >Hey There! I’m Sanjana👩‍💻</p></b>
         <h2 className={styles.sectionHeadText}></h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-5xl leading-[30px]'
+        className='mt-4 text-secondary  text-[17px] lg:text-center leading-[30px]'
       >
         My programming journey has been an exciting leap into a world of endless possibilities. From C and Java to JavaScript, I’ve enjoyed bringing ideas to life through coding.
         <br />  I’m passionate about building dynamic web applications with the MERN stack to deliver engaging user experiences.

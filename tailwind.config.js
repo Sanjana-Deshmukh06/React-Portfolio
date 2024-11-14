@@ -44,10 +44,23 @@ module.exports = {
             transform: "translateY(0)",
           },
         },
+        arrowAnimation: {
+          "0%": {
+            
+            width: "0%", // Arrow starts with no width
+            transform: "rotate(180deg)", // Start with default rotation
+          },
+          "100%": {
+            width: "100%", // Arrow reaches full width
+            transform: "rotate(10deg)", // Arrow rotates 180 degrees to point downwards
+          },
+        },
       },
       animation: {
         gradientFloat: "gradientFloat 5s infinite linear",
         fadeIn: "fadeIn 1s ease-out",
+        arrowAnimation: "arrowAnimation 1.5s ease-in-out infinite", // Apply the animation with a duration and easing
+
       },
       transitionProperty: {
         transform: "transform", // Adding transition for transform property (heart icon scale)

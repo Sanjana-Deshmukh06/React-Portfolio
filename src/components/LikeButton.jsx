@@ -31,8 +31,8 @@ const LikeButton = () => {
             style={{
               marginRight: '10px',
               transition: 'transform 0.3s ease-in-out',
-              transform: isLiked ? 'scale(1.5)' : 'scale(1)',
-              fontSize: '24px',
+              transform: isLiked ? 'scale(1.2)' : 'scale(1)',
+              fontSize: '35px',
               color: isLiked ? 'red' : 'white',
             }}
           >

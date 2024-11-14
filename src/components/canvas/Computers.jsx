@@ -2,7 +2,7 @@ import React, { Suspense, useEffect, useState } from 'react';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls, Preload, useGLTF } from '@react-three/drei';
 import CanvasLoader from '../Loader';
-import cmpimg from '/src/assets/cppp.png';
+import cmpimg from '/src/assets/arrow.png';
 
 const Computers = ({ isMobile }) => {
   const computer = useGLTF('./desktop_pc/scene.gltf');
@@ -43,17 +43,17 @@ const ComputersCanvas = () => {
 
 
   // If on mobile, return an image instead of the 3D canvas
-  //  if (isMobile) {
-  //   return (
-  //     <div className="w-full h-full flex justify-center items-center mt-40">
-  //       <img
-  //       src={cmpimg} // Replace this with the path to your static image
-  //         alt="Computer Model"
-  //         className="w-full h-auto max-w-md" // Ensure the image is responsive
-  //       />
-  //     </div>
-  //   );
-  // }
+   if (isMobile) {
+    return (
+      <div className="w-full h-full flex justify-center items-center">
+        <img
+        src={cmpimg} // Replace this with the path to your static image
+          alt="Computer Model"
+          className="w-full h-auto max-w-[150px] absolute bottom-40 animate-arrowAnimation" // Ensure the image is responsive
+        />
+      </div>
+    );
+  }
 
   return (
     <Canvas
