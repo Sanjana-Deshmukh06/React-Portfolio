@@ -47,7 +47,7 @@ const Tech = () => {
       >
         <div className="container mx-auto">
           <div className="skill-bx">
-            <motion.div variants={fadeIn("down", "tween", 0.2, 1) }>
+            <motion.div variants={fadeIn("right", "tween", 0.2, 1) }>
               <p className={` text-md font-bold text-secondary text-center p-8`}>
               Showcasing the skills that are revolutionizing the digital landscape -
               </p>

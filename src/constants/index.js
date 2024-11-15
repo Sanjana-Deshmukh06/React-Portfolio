@@ -68,24 +68,20 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
+    name: "Three JS",
+    icon: threejs,
   },
   {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "HTML 5",
+    icon: html,
+  },
+  {
+    name: "CSS 3",
+    icon: css,
   },
   {
     name: "Tailwind CSS",
@@ -100,16 +96,8 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
+    name: "JavaScript",
+    icon: javascript,
   },
   {
     name: "Java",
@@ -118,6 +106,18 @@ const technologies = [
   {
     name: "MySQL",
     icon: sql,
+  },
+  {
+    name: "Redux Toolkit",
+    icon: redux,
+  },
+  {
+    name: "git",
+    icon: git,
+  },
+  {
+    name: "figma",
+    icon: figma,
   },
 ];
 
@@ -185,11 +185,23 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "MERN",
+        name: "MongoDB",
         color: "green-text-gradient",
       },
       {
+        name: "Nodejs",
+        color: "blue-text-gradient",
+      },
+      {
         name: "EJS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Express",
+        color: "green-text-gradient",
+      },
+      {
+        name: "RESTful API",
         color: "pink-text-gradient",
       },
     ],
@@ -205,8 +217,16 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
+        name: "3D Animation",
+        color: "pink-text-gradient",
+      },
+      {
         name: "Tailwind",
         color: "green-text-gradient",
+      },
+      {
+        name: "react-three-fiber",
+        color: "blue-text-gradient",
       },
       {
         name: "React",
@@ -229,8 +249,16 @@ const projects = [
         color: "green-text-gradient",
       },
       {
+        name: "Bootstrap",
+        color: "blue-text-gradient",
+      },
+      {
         name: "Javascript",
         color: "pink-text-gradient",
+      },
+      {
+        name: "Grid-Layout",
+        color: "green-text-gradient",
       },
     ],
     image: tictac,
