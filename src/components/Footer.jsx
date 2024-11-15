@@ -46,7 +46,7 @@ const Footer = () => {
           </div>
         {/* Right Section (Copyright) */}
         <div className="flex flex-1 justify-center md:justify-end text-center py-2">
-          <p className={`${styles.sectionSubText}ttext-white font-bold text-sm md:text-base`}>
+          <p className={`${styles.sectionSubText}text-white font-bold text-sm md:text-base`}>
           © 2024 SD. All rights reserved.
           </p>
         </div>

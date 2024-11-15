@@ -24,7 +24,7 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import java from './tech/java.png';
-import sql from './tech/sql.svg';
+import sql from './tech/mysql.png';
 
 import avipl from "./company/avipl.png";
 import websoft from "./company/websoft.png";
