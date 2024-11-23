@@ -84,7 +84,7 @@ const About = () => {
         className='mt-4 text-secondary  text-[17px] lg:text-center leading-[30px]'
       >
         My programming journey has been an exciting leap into a world of endless possibilities. From C and Java to JavaScript, I’ve enjoyed bringing ideas to life through coding.
-        <br />  I’m passionate about building dynamic web applications with the MERN stack to deliver engaging user experiences.
+        <br />  I’m passionate about building dynamic web applications with the <strong>MERN stack </strong> to deliver engaging user experiences.
 
         I love web development, from designing user-friendly interfaces to building solid backends with MySQL and MongoDB. Every project is a new opportunity, and I’m always ready to explore fresh challenges.
         <br />Let’s create something great together!🤝<br />

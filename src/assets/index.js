@@ -37,6 +37,7 @@ import portfolio from './portfolio.png';
 import triptribe from './TripTribe.png';
 import resume from './Sanjana_Deshmukh.pdf';
 import logo2 from './avtar2.avif';
+import signup from './signup.png';
 
 import email from './connect/email.png';
 import Github from './connect/github.png';
@@ -84,4 +85,5 @@ export {
   sp2,
   sp3,
   sp4,
+  signup,
 };

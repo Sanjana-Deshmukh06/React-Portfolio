@@ -23,6 +23,7 @@ import {
   tictac,
   portfolio,
   threejs,
+  signup,
   sp2,
   sp3,
   sp4
@@ -236,6 +237,35 @@ const projects = [
     image: portfolio,
     source_code_link: "https://sanjana-deshmukh.netlify.app/",
   },
+  {
+    name: "Authentication Webpage",
+    description: "This authentication module provides a seamless and secure user experience. Built using React and Tailwind CSS, it features a visually appealing design with responsive layouts.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Framer Motion",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Responsive Design",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "User Authentication",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: signup,
+    source_code_link: "https://authentication5.vercel.app/",
+},
+
   {
     name: "Tic Tac Toe",
     description: "This Tic-Tac-Toe project is a simple, interactive web-based game developed using JavaScript, HTML, and Vanilla CSS.The game features a clean and responsive design, allowing two players to compete with real-time updates on the game board.",
