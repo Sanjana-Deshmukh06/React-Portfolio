@@ -29,5 +29,7 @@ Visit the Live Site (https://sanjana-deshmukh.netlify.app/)
 Feel free to reach out if you have any questions or feedback!
 
 Email: sanjanadeshmukh30@Gmail.com
+
 LinkedIn: www.linkedin.com/in/sanjana-deshmukh06
+
 GitHub:(https://github.com/Sanjana-Deshmukh06)
