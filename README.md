@@ -20,7 +20,8 @@ Hosting:Netlify
    ├── 📂 components  # Reusable components  
    ├── 📂 assets      # Images, icons, and other static assets  
    ├── 📂 pages       # Website pages (About, Contact, Projects, etc.)  
-   └── App.js         # Main application file  
+   └── App.js         # Main application file 
+   
 📸 Preview
 
 Visit the Live Site (https://sanjana-deshmukh.netlify.app/)
