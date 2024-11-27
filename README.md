@@ -16,6 +16,7 @@ Styling: Tailwind CSS
 Hosting:Netlify
 
 📂 Folder Structure
+
 📁 src  
    ├── 📂 components  # Reusable components  
    ├── 📂 assets      # Images, icons, and other static assets  
