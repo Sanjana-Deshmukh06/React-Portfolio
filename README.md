@@ -11,7 +11,7 @@ Contact Form: Easy way for visitors to reach out.
 
 🛠️ Tech Stack
 Frontend: React.js, HTML5, CSS3, JavaScript
-Animations: Framer Motion
+Animations: Framer Motion, 3D 
 Styling: Tailwind CSS 
 Hosting:Netlify
 
