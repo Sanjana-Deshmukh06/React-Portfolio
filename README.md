@@ -4,7 +4,7 @@ Welcome to my personal portfolio website! This project showcases my skills, expe
 
 🚀 Features
 
-Interactive Design: A visually appealing interface with smooth animations and transitions...
+Interactive Design: A visually appealing interface with smooth animations and transitions..
 Responsive Layout: Fully optimized for desktops, tablets, and mobile devices.
 Dynamic Content: Projects, skills, and experiences dynamically displayed.
 Contact Form: Easy way for visitors to reach out..
