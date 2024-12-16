@@ -51,7 +51,7 @@ const About = () => {
             </li>
 
             <li className="hover:-translate-y-6 transform transition-all duration-200">
-              <a href="contact">
+              <a href="https://t.me/Sanjana_Deshmukh">
                 <img src={telegram} alt={telegram} className='w-12 h-12 object-contain rounded-full 
               shadow-sm shadow-gray-100 p-1 hover:shadow-lg hover:shadow-purple-800'  />
               </a>

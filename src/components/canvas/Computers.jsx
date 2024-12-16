@@ -21,13 +21,13 @@ const Computers = ({ isMobile }) => {
 
   return (
     <mesh position={[0, bounceY, 0]}>
-      <hemisphereLight intensity={isMobile ? 7 : 7} groundColor="black" />
-      <pointLight intensity={isMobile ? 3 : 6} position={isMobile ? [0, -4, 0] : [0, -0.5, 0]} />
+      <hemisphereLight intensity={isMobile ? 0 : 7} groundColor="black" />
+      <pointLight intensity={isMobile ? 0 : 6} position={isMobile ? [0, -4, 0] : [0, -0.5, 0]} />
       <spotLight
         position={[-10, 30, 10]}
         angle={0.3}
         penumbra={1}
-        intensity={isMobile ? 0.5 : 1.5}
+        intensity={isMobile ? 0 : 1.5}
         castShadow
         shadow-mapSize={1024}
       />
