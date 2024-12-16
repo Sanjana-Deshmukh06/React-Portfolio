@@ -46,7 +46,7 @@ const Navbar = () => {
             nav.id === "cv" ? (
               <li key={nav.id}>
                 <a
-                  href="https://drive.google.com/file/d/1AoSq6_n8qo9VdiLbNSoB8tS1oOAslURV/view?usp=drive_link"
+                  href="https://1drv.ms/f/c/00c724fc69fe571c/EqtU7bKwNhJJlEb_wzaRnvQBTlB8PqJR8R5xRdOvWgWhHA?e=bOefnq"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-white text-[18px] font-medium cursor-pointer 
