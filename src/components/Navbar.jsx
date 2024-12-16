@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import { styles } from '../styles';
 import { navLinks } from '../constants';
-import { menu, close, logo2 } from '../assets';
+import { menu, close, logo2,resume } from '../assets';
 import ProfileCard from './ProfileCard';
 
 const Navbar = () => {
@@ -46,8 +46,7 @@ const Navbar = () => {
             nav.id === "cv" ? (
               <li key={nav.id}>
                 <a
-                  href="https://1drv.ms/f/c/00c724fc69fe571c/EqtU7bKwNhJJlEb_wzaRnvQBTlB8PqJR8R5xRdOvWgWhHA?e=bOefnq"
-                  target="_blank"
+                 href={resume} download="Sanjana_Deshmukh_7558694606"
                   rel="noopener noreferrer"
                   className="text-white text-[18px] font-medium cursor-pointer 
                   hover:bg-gradient-to-r hover:from-purple-500 hover:via-pink-500 hover:to-red-500 

@@ -89,7 +89,7 @@ const About = () => {
         I love web development, from designing user-friendly interfaces to building solid backends with MySQL and MongoDB. Every project is a new opportunity, and I’m always ready to explore fresh challenges.
         <br />Let’s create something great together!🤝<br />
 
-        <a href={resume} download="Sanjana_Deshmukh"><button
+        <a href={resume} download="Sanjana_Deshmukh_7558694606"><button
           type='submit'
           className='bg-tertiary py-4 px-8 w-fit text-white font-semibold shadow-primary rounded-xl mt-4 shadow-sm 
                      transition-all duration-300 ease-in-out 
