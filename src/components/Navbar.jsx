@@ -46,7 +46,7 @@ const Navbar = () => {
             nav.id === "cv" ? (
               <li key={nav.id}>
                 <a
-                 href={resume} download="Sanjana_Deshmukh_7558694606"
+                 href={resume} download="Sanjana_Deshmukh_MERNdeveloper_7558694606"
                   rel="noopener noreferrer"
                   className="text-white text-[18px] font-medium cursor-pointer 
                   hover:bg-gradient-to-r hover:from-purple-500 hover:via-pink-500 hover:to-red-500 
