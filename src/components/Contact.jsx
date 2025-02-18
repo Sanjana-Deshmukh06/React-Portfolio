@@ -8,9 +8,6 @@ import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';
 import LikeButton from './LikeButton'; // Import the LikeButton component
 
-
-
-
 const Contact = () => {
   const formRef = useRef();
   const [form, setform] = useState({

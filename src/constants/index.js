@@ -18,6 +18,7 @@ import {
   sql,
   avipl,
   websoft,
+  spade,
   project1,
   triptribe,
   tictac,
@@ -43,8 +44,8 @@ export const navLinks = [
     title: "Contact",
   },
   {
-    id:"cv",
-    title:"Resume"
+    id: "cv",
+    title: "Resume"
   }
 ];
 
@@ -123,6 +124,18 @@ const technologies = [
 ];
 
 const experiences = [
+  {
+    title: "Full stack developer",
+    company_name: "Spade Technology",
+    icon: spade,
+    iconBg: "#383E56",
+    date: "January 2025 - Present",
+    points: [
+      "Developed an Employment Management Software, enhancing workforce efficiency and data accuracy.",
+      "Designed and implemented the Organization and Employee modules, streamlining HR operations and employee record management.",
+      "Integrated role-based access control, ensuring secure and structured data handling across departments."
+    ],
+  },
   {
     title: "Web Developer Intern",
     company_name: "WebSoft Infotech",
@@ -264,7 +277,7 @@ const projects = [
     ],
     image: signup,
     source_code_link: "https://authentication5.vercel.app/",
-},
+  },
 
   {
     name: "Tic Tac Toe",

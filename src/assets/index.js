@@ -28,6 +28,7 @@ import sql from './tech/mysql.png';
 
 import avipl from "./company/avipl.png";
 import websoft from "./company/websoft.png";
+import spade from "./company/spade-logo.jpg"
 
 import project1 from './Project1.png';
 import project2 from './Project2.png';
@@ -70,6 +71,7 @@ export {
   sql,
   avipl,
   websoft,
+  spade,
   project1,
   project2,
   project3,
