@@ -1,6 +1,6 @@
 🌟 My Portfolio Website
 
-Welcome to my personal portfolio website! This project showcases my skills, experience, and projects in a creative and interactive way. Built with modern web technologies, the website is fully responsive and designed to provide an engaging user experience..
+Welcome to my personal portfolio website! This project showcases my skills, experience, and projects in a creative and interactive way. Built with modern web technologies, the website is fully responsive and designed to provide an engaging user experience.
 
 🚀 Features
 
