@@ -18,7 +18,7 @@ const Footer = () => {
             }}
           >
             <p className={`${styles.sectionSubText}text-white font-bold text-sm md:text-base`}>
-              Developed By &nbsp;| 
+              Developed By &nbsp;|
               <span className="cursor-pointer px-2 text-[#915eff] hidden md:inline-block">
                 @Sanjana-Deshmukh
               </span>
@@ -28,31 +28,31 @@ const Footer = () => {
             </p>
           </Link>
         </div>
-{/* Middle Section (Arrow animation) */}
-<div className="flex flex-1 justify-center py-2">
-            <a href="#about">
-              <div className="w-[25px] h-[40px] rounded-3xl border-4 border-secondary flex justify-center items-start p-1.5">
-                <motion.div
-                  animate={{ y: [0, 13, 0] }}
-                  transition={{
-                    duration: 1.5,
-                    repeat: Infinity,
-                    repeatType: 'loop'
-                  }}
-                  className='w-5 h-2 rounded-full bg-secondary mb-1'
-                />
-              </div>
-            </a>
-          </div>
+        {/* Middle Section (Arrow animation) */}
+        <div className="flex flex-1 justify-center py-2">
+          <a href="#about">
+            <div className="w-[25px] h-[40px] rounded-3xl border-4 border-secondary flex justify-center items-start p-1.5">
+              <motion.div
+                animate={{ y: [0, 13, 0] }}
+                transition={{
+                  duration: 1.5,
+                  repeat: Infinity,
+                  repeatType: 'loop'
+                }}
+                className='w-5 h-2 rounded-full bg-secondary mb-1'
+              />
+            </div>
+          </a>
+        </div>
         {/* Right Section (Copyright) */}
         <div className="flex flex-1 justify-center md:justify-end text-center py-2">
           <p className={`${styles.sectionSubText}text-white font-bold text-sm md:text-base`}>
-          © 2024 SD. All rights reserved.
+            © 2025 SD. All rights reserved.
           </p>
         </div>
       </div>
 
-    
+
     </footer>
   );
 };
