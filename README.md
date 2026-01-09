@@ -1,13 +1,13 @@
 🌟 My Portfolio Website
 
-Welcome to my personal portfolio website! This project showcases my skills, experience, and projects in a creative and interactive way. Built with modern web technologies, the website is fully responsive and designed to provide an engaging user experience..
+Welcome to my personal portfolio website! This project showcases my skills, experience, and projects in a creative and interactive way. Built with modern web technologies, the website is fully responsive and designed to provide an engaging user experience.
 
 🚀 Features
 
 Interactive Design: A visually appealing interface with smooth animations and transitions.
 Responsive Layout: Fully optimized for desktops, tablets, and mobile devices.
 Dynamic Content: Projects, skills, and experiences dynamically displayed.
-Contact Form: Easy way for visitors to reach out..
+Contact Form: Easy way for visitors to reach out.
 
 🛠️ Tech Stack
 Frontend: React.js, HTML5, CSS3, JavaScript
