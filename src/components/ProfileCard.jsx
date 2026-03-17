@@ -19,7 +19,7 @@ const ProfileCard = ({ isVisible, onClose }) => {
 
             {/* Gradient Border Wrapper */}
             <motion.div
-                className="fixed top-16 transform mt-4 animate-fadeIn bg-gradient-to-r from-pink-500 via-red-500 to-purple-500 rounded-lg p-[2px] shadow-lg z-20 w-10/11 max-w-md sm:max-w-lg md:max-w-xl lg:max-w-2xl xl:max-w-3xl"
+                className="fixed top-16 transform mt-4  bg-gradient-to-r from-pink-500 via-red-500 to-purple-500 rounded-lg p-[2px] shadow-lg z-20 w-10/11 max-w-md sm:max-w-lg md:max-w-xl lg:max-w-2xl xl:max-w-3xl"
                 initial={{ scale: 0.9 }}
                 animate={{ scale: 1 }}
                 exit={{ scale: 0 }}
