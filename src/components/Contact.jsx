@@ -114,7 +114,7 @@ const Contact = () => {
           </button>
         </form>
   {/* Like Button Component */}
-  <LikeButton />
+  {/* <LikeButton /> */}
 
       </motion.div>
       <motion.div

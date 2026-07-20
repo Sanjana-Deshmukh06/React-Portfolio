@@ -28,7 +28,7 @@ const Navbar = () => {
           <img
             src={logo2}
             alt="logo"
-            className="w-14 h-14 object-contain rounded-full animate-pulse cursor-pointer"
+            className="w-14 h-14 object-contain rounded-full cursor-pointer"
           />
           <p className="text-white text-[18px] font-bold flex">
             👋&nbsp;
